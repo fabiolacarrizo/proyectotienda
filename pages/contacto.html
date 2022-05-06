@@ -7,6 +7,7 @@
     <title>Artemisa | Contacto</title>
     <link rel="icon" href="../images/iconoluna.png">
     <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/pruebacss.css">
     <link rel="stylesheet" href="../css/styles.css">
 </head>
 <body>
@@ -28,29 +29,30 @@
 
 <div class="row">
   <div class="col-lg-6 col-md-12 col-sm-12">
-    <img class="contacto__imagen" src="../images/gafascontacto.jpg" alt="">
+    <img  class="contacto__imagen" src="../images/gafascontacto.jpg" alt="">
 </div>
 
 <div class="col-lg-6 col-md-12 col-sm-12" class="contacto__formulario">
-    <h2>Contacto</h2>
-    <p>Llena el siguiente formulario y nos pondremos en contacto con usted</p>
+    <h2 class="tituloprincipal">Contacto</h2>
+    <p class="titulosegundario">Llene el siguiente formulario y nos pondremos en contacto con usted</p>
 
+<div class="card__formulario">
     <form  action="">
 <fieldset>
     <legend>Formulario</legend>
-<label for="nombreyapellido">Nombre y Apellido</label> <br>
-<input type="text" name="nombreyapellido"> <br>
+<label for="nombreyapellido">Nombre y Apellido</label> 
+<p><input type="text" name="nombreyapellido"> </p> 
 
-<label for="correo">Email</label> <br>
-<input type="email" name="correo"> <br>
+<label for="correo">Email</label> 
+<p> <input type="email" name="correo"> </p> 
 
-<label for="telefono">Telefono</label> <br>
-<input type="number" name="telefono"> <br>
+<label for="telefono">Telefono</label> 
+<p> <input type="number" name="telefono"> </p>
 
-<label for="sexo">Sexo</label> <br>
-<input type="radio" name="sexo"> Hombre
+<label for="sexo">Sexo</label>
+ <p> <input type="radio" name="sexo"> Hombre
 <input type="radio" name="sexo"> Mujer
-<input type="radio" name="sexo"> Otro <br>
+<input type="radio" name="sexo"> Otro </p>
 
 <textarea name="comentarios" placeholder="Escriba su Consulta"></textarea> <br>
 
@@ -59,6 +61,8 @@
     
     </fieldset>
     </form>
+</div>
+
   </div>
 </div>
 </main>

@@ -100,7 +100,7 @@ padding: 20px;
 
 .menu:hover{color: bisque; text-decoration: none;}
 
-.contacto__imagen{overflow: hidden;display: inline-block; width: 600px; height: 600px;padding: 20px; }
+.contacto__imagen{overflow: hidden;display: inline-block; width: 600px; height: 600px;padding: 20px;}
 
 .contacto__formulario{ width: 400px; height: 100%;  text-align: justify; padding: 20px;}
 

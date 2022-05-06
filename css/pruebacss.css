@@ -1,0 +1,19 @@
+.tituloprincipal {
+  color: #9e6f35;
+  border-color: bisque;
+  text-align: center; }
+
+.titulosegundario {
+  color: #705a0f;
+  text-align: center; }
+
+.card__formulario {
+  background-color: white;
+  padding: 20px;
+  width: 300px;
+  margin-left: 100px; }
+  .card__formulario label {
+    color: #4b3213; }
+  .card__formulario legend {
+    color: #802d00;
+    text-align: center; }
