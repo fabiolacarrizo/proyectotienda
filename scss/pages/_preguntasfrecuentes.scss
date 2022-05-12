@@ -1,0 +1,13 @@
+
+main{
+    img{width: $ancho-img-preguntas; height: $alto-img-preguntas;
+    &:hover{width: 620px;; height: 260px; ;}
+    margin: $margen-img;
+    }
+}
+
+div{
+h3{  color: $color-principal; text-align: center; }
+
+p{color:$color-parrafo; width: 600px; height: 50px; font-size: $size-parrafo;}
+}

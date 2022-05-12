@@ -121,3 +121,5 @@ padding: 20px;
 #imagenredes{text-align: center; width: 150px; height: 60px; }
 
 .preguntas{display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; margin: 20px;}
+
+body{background-image:url(../../images/gafascontacto.jpg);}

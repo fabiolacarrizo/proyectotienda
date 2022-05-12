@@ -1,3 +1,21 @@
+main img {
+  width: 550px;
+  height: 250px;
+  margin: 30px; }
+  main img:hover {
+    width: 620px;
+    height: 260px; }
+
+div h3 {
+  color: #90592f;
+  text-align: center; }
+
+div p {
+  color: #7b443a;
+  width: 600px;
+  height: 50px;
+  font-size: 25px; }
+
 .tituloprincipal {
   color: #9e6f35;
   border-color: bisque;
@@ -10,8 +28,9 @@
 .card__formulario {
   background-color: white;
   padding: 20px;
-  width: 300px;
-  margin-left: 100px; }
+  width: 500px;
+  margin-left: 100px;
+  margin: 10px; }
   .card__formulario label {
     color: #4b3213; }
   .card__formulario legend {
