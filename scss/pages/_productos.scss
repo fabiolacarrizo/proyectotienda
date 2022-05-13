@@ -1,0 +1,13 @@
+$colorletras:(
+titulo:rgb(141, 83, 39),
+subtitulo: rgb(132, 83, 77),
+parrafo: rgb(105, 75, 37),
+bordes: black,
+);
+
+@each $color in $colorletras {
+    .btn#{$color}{color:$color;}
+}
+
+
+

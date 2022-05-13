@@ -1,0 +1,13 @@
+@mixin textos ($medida, $ubicacion){
+    font-size: 20px;
+    text-align: center;
+    } 
+
+.medidastexto__principal{
+    @include textos (25px, center )
+}
+    
+.medidastexto__parrafo{
+    @include textos (15px, center )
+}
+    

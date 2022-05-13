@@ -1,8 +1,8 @@
 @import "variables.scss";
-@import "pages/preguntasfrecuentes";
-@import  "pages/productos"; 
-@import "pages/pedidos";
-@import "pages/contacto"
-
-
+@import "pages/preguntasfrecuentes.scss";
+@import  "pages/productos.scss"; 
+@import "pages/pedidos.scss";
+@import "pages/contacto.scss";
+@import "pages/extend.scss";
+@import "pages/mixins.scss";
 

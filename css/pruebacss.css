@@ -16,6 +16,18 @@ div p {
   height: 50px;
   font-size: 25px; }
 
+.btntitulo #8d5327 {
+  color: titulo #8d5327; }
+
+.btnsubtitulo #84534d {
+  color: subtitulo #84534d; }
+
+.btnparrafo #694b25 {
+  color: parrafo #694b25; }
+
+.btnbordes black {
+  color: bordes black; }
+
 .tituloprincipal {
   color: #9e6f35;
   border-color: bisque;
@@ -36,3 +48,21 @@ div p {
   .card__formulario legend {
     color: #802d00;
     text-align: center; }
+
+.imgproductos, .imgproductos__pequenos {
+  height: 400px;
+  width: 400px;
+  border-radius: 40px;
+  margin: 20px; }
+
+.imgproductos__pequenos {
+  height: 300px;
+  width: 300px; }
+
+.medidastexto__principal {
+  font-size: 20px;
+  text-align: center; }
+
+.medidastexto__parrafo {
+  font-size: 20px;
+  text-align: center; }

@@ -123,3 +123,5 @@ padding: 20px;
 .preguntas{display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; margin: 20px;}
 
 body{background-image:url(../../images/gafascontacto.jpg);}
+
+.card__pedidos{display: block; width: 500px; height: 200px;}
