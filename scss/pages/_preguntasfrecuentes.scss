@@ -1,8 +1,6 @@
 
 main{
     img{width: $ancho-img-preguntas; height: $alto-img-preguntas;
-    &:hover{width: 620px;; height: 260px; ;}
-    margin: $margen-img;
     }
 }
 

@@ -2,19 +2,11 @@ main img {
   width: 550px;
   height: 250px;
   margin: 30px; }
-  main img:hover {
-    width: 620px;
-    height: 260px; }
+ 
 
 div h3 {
   color: #90592f;
   text-align: center; }
-
-div p {
-  color: #7b443a;
-  width: 600px;
-  height: 50px;
-  font-size: 25px; }
 
 .btntitulo #8d5327 {
   color: titulo #8d5327; }
