@@ -10,19 +10,11 @@
 margin-bottom: 20px;}
 
  body{font-family:'Times New Roman', Times, serif;
-     background-color: rgb(231, 213, 213); margin: 0%; padding: 0%; min-height: 100vh;} 
+     background-color: #FEFBF3; margin: 0%; padding: 0%; min-height: 100vh;} 
 
 footer{background-color: black; width: 100%;  margin-top: auto;}
 
 li{list-style: none;}
-
-.imagenes__inicio{height: 300px;width: 300px; border-radius: 50px; padding: 10px;}
-
-.imagenes__inicio:hover{height: 320px; width: 320px;}
-
-.imagenes__productos{height: 300px; width: 300px; border-radius: 20px;}
-
-.imagenes__productos:hover{height: 320px; width: 320px;}
 
 .card__productoslentes{display: inline-block;
 background-color: white;
@@ -112,7 +104,7 @@ padding: 20px;
 
 .imagenws:hover{width: 85px; height: 85px;}
 
-.titulo__principal{text-align: center; padding: 20px; color: rgb(133, 82, 71); font-size: 40px;}
+.titulo__principal{text-align: center; padding: 20px; color: #630000; font-size: 70px; background-image: url("../images/fondo.jpg"); height: 150px; border: radius 10px; ; box-shadow: 0 0 15px rgb(143, 107, 107);}
 
 .subtitulo{text-align: center; padding: 20px; color: rgb(133, 82, 71); font-size: 25px;}
 
@@ -130,10 +122,36 @@ body{background-image:url(../../images/gafascontacto.jpg);}
 
 .card__imgproductos{color: black; text-align: center; width: 150px; height: 150px;}
 
-.card__comprar{display: ; background-color: white; width: 250px; height: 400px; text-align: center; margin: 40px; padding: 10px;}
+.card__comprar{display:block ; background-color: white; width: 250px; height: 400px; text-align: center; margin: 40px; padding: 10px; padding-bottom: 0%;}
 
 .boton__comprar{background-color: rgb(23, 82, 133); text-decoration: underline; color: white; text-align: center; border: none; width: 100px; height: 25px; border-radius: 5px;}
 
 .img_productoventa{height: 200px; width: 150px;}
 
 img{ max-width: 100%; max-height: 100%;}
+ 
+.img__portada{width: 700px; height: 500px; margin: 20px;}
+
+.img__portadagrande{margin: 65px;}
+
+.img__portadagrande:hover{filter: opacity(.6);}
+
+.iconos{border-radius: 10px; width: 80px; height: 80px; margin-left: 0%; margin-right: 20px;}
+
+.card__portada{ position: relative; display:block; text-align: center; }
+
+.card__portada:hover .img__portada{filter: opacity(.6);}
+
+.centrado{
+    font-size: 70px;
+    color:rgb(49, 50, 50);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+}
+
+.boton__inicio{ display: block; width: 500px; height: 100px; background-image: url("../images/botonfondo.jpg"); color: #630000; font-size: 30px; text-align: center; padding-top: 10px; margin: 30px; margin-left: 100px; border: radius 10px; ; box-shadow: 0 0 15px rgb(143, 107, 107);}
+
+.boton__inicio:hover{ font-size: 32px;}
+
